@@ -28,7 +28,7 @@ def activatefunction(x):
 
 def mutation(x):
     if random.random() < mutation_rate:
-        x += np.random.normal(0, 0.07)
+        x += np.random.normal(0, 0.7)
     return x
 
 
